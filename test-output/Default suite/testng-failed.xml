@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="executing.BookingConfirmationPageJunit">
+        <methods>
+          <include name="SearchHotelValueField"/>
+          <include name="BookingConfirmationPageScroll"/>
+          <include name="SlectHotelContinueButton"/>
+          <include name="BookHotelPageValueField"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="BookNowButton"/>
+          <include name="BookHotelPageValidation"/>
+          <include name="SelectHotel"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="ClickLoginButton"/>
+          <include name="BookingConfirmationClick"/>
+        </methods>
+      </class> <!-- executing.BookingConfirmationPageJunit -->
+      <class name="executing.BookHotelPageJunit">
+        <methods>
+          <include name="BookHotelPageValueField"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SelectHotel"/>
+          <include name="BookNowButton"/>
+          <include name="BookHotelPageValidation"/>
+          <include name="SlectHotelContinueButton"/>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelValueField"/>
+          <include name="SearchHotelSearchButton"/>
+        </methods>
+      </class> <!-- executing.BookHotelPageJunit -->
+      <class name="executing.SearchHotelJunit">
+        <methods>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelValueField"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SearchHotelSearchButton"/>
+        </methods>
+      </class> <!-- executing.SearchHotelJunit -->
+      <class name="executing.SelectHotelJunit">
+        <methods>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SelectHotel"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelValueField"/>
+          <include name="SlectHotelContinueButton"/>
+        </methods>
+      </class> <!-- executing.SelectHotelJunit -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

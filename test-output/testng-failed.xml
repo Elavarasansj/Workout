@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="executing.SelectHotelJunit">
+        <methods>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SelectHotel"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="BrowserLaunch"/>
+          <include name="SelectHotelValidation"/>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelValueField"/>
+          <include name="LoginPageValidation"/>
+          <include name="SlectHotelContinueButton"/>
+          <include name="SearchHotelPageValidation"/>
+        </methods>
+      </class> <!-- executing.SelectHotelJunit -->
+      <class name="executing.SearchHotelJunit">
+        <methods>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelValueField"/>
+          <include name="BrowserLaunch"/>
+          <include name="SearchHotelPageValidation"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="LoginPageValidation"/>
+        </methods>
+      </class> <!-- executing.SearchHotelJunit -->
+      <class name="executing.BookedLtineraryPageJunit">
+        <methods>
+          <include name="ClickLoginButton"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="SelectHotel"/>
+          <include name="SelectHotelValidation"/>
+          <include name="BookingConfirmationPage"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="BookNowButton"/>
+          <include name="BookedLtineraryPageCheckBox"/>
+          <include name="BookingConfirmationPageScroll"/>
+          <include name="BookingConfirmationClick"/>
+          <include name="BookHotelPageValidation"/>
+          <include name="BrowserLaunch"/>
+          <include name="BookHotelPageValueField"/>
+          <include name="BookedLtineraryClick"/>
+          <include name="SlectHotelContinueButton"/>
+          <include name="SearchHotelPageValidation"/>
+          <include name="BookedLtineraryPageValidation"/>
+          <include name="LoginPageValidation"/>
+          <include name="LoginAgainClick"/>
+          <include name="SearchHotelValueField"/>
+        </methods>
+      </class> <!-- executing.BookedLtineraryPageJunit -->
+      <class name="executing.BookHotelPageJunit">
+        <methods>
+          <include name="SearchHotelPageValidation"/>
+          <include name="LoginPageValidation"/>
+          <include name="BookHotelPageValueField"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="SelectHotel"/>
+          <include name="BookNowButton"/>
+          <include name="SlectHotelContinueButton"/>
+          <include name="BookHotelPageValidation"/>
+          <include name="BrowserLaunch"/>
+          <include name="ClickLoginButton"/>
+          <include name="SelectHotelValidation"/>
+          <include name="SearchHotelValueField"/>
+          <include name="SearchHotelSearchButton"/>
+        </methods>
+      </class> <!-- executing.BookHotelPageJunit -->
+      <class name="executing.BookingConfirmationPageJunit">
+        <methods>
+          <include name="SlectHotelContinueButton"/>
+          <include name="SearchHotelPageValidation"/>
+          <include name="LoginPageValidation"/>
+          <include name="BookHotelPageValueField"/>
+          <include name="BookHotelPageValidation"/>
+          <include name="BookingConfirmationPage"/>
+          <include name="BrowserLaunch"/>
+          <include name="BookingConfirmationClick"/>
+          <include name="SearchHotelValueField"/>
+          <include name="BookingConfirmationPageScroll"/>
+          <include name="EnterValidLoginCrdentials"/>
+          <include name="BookNowButton"/>
+          <include name="SelectHotelValidation"/>
+          <include name="SelectHotel"/>
+          <include name="SearchHotelSearchButton"/>
+          <include name="ClickLoginButton"/>
+        </methods>
+      </class> <!-- executing.BookingConfirmationPageJunit -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

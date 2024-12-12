@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="executing.SearchHotelJunit"/>
+      <class name="executing.SelectHotelJunit"/>
+       <class name="executing.BookHotelPageJunit"/>
+       <class name="executing.BookingConfirmationPageJunit"/>
+      <class name="executing.BookedLtineraryPageJunit"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
